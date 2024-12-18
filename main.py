@@ -1,4 +1,5 @@
 import numpy as np
+import time
 
 frame=np.array([
     [0, 0, 0, 0, 0, 0, 0],
@@ -31,3 +32,13 @@ def compute_next_frame(frame):
             elif number_neighbors==3:
                 frame[row_index-1,column_index-1]=1#la celule actuelle revit     
     return frame
+
+
+cycle=1
+while True:
+    print("Cycle:", cycle)
+    print(frame)
+    print()
+    cycle+=1
+    time.sleep(2)#ralenir les affichages des matrices
+    frame = compute_next_frame(frame)
