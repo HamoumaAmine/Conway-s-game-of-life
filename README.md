@@ -4,7 +4,7 @@ Ce projet implémente le célèbre Jeu de la Vie de Conway en Python. Le jeu sim
 ## 📖 Description
 Le Jeu de la Vie est un automate cellulaire où chaque cellule évolue en fonction de ses voisins :
 
-# Règles du Jeu
+## Règles du Jeu
 Une cellule vivante avec 2 ou 3 voisins vivants reste vivante.
 
 Une cellule morte avec exactement 3 voisins vivants devient vivante.
