@@ -9,7 +9,7 @@ Une cellule vivante avec 2 ou 3 voisins vivants reste vivante.
 
 Une cellule morte avec exactement 3 voisins vivants devient vivante.
 
-# Toutes les autres cellules meurent ou restent mortes :
+### Toutes les autres cellules meurent ou restent mortes :
 
 Une cellule vivante avec moins de 2 voisins vivants meurt (sous-population).
 
